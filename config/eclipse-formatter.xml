@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<profiles version="23">
+    <profile kind="CodeFormatterProfile" name="SunStyle" version="23">
+
+        <!-- 4 spaces -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.tabulation.char"
+                value="space"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.tabulation.size"
+                value="4"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.indentation.size"
+                value="4"/>
+
+        <!-- IntelliJ RIGHT_MARGIN = 140 -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.lineSplit"
+                value="140"/>
+
+        <!-- Braces -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.brace_position_for_block"
+                value="end_of_line"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.brace_position_for_method_declaration"
+                value="end_of_line"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.brace_position_for_type_declaration"
+                value="end_of_line"/>
+
+        <!-- Spaces -->
+        <setting
+                id="org.eclipse.jdt.core.formatter.insert_space_before_opening_brace_in_array_initializer"
+                value="insert"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_method_invocation"
+                value="16"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_parameters_in_method_declaration"
+                value="16"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_superclass_in_type_declaration"
+                value="16"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_superinterfaces_in_type_declaration"
+                value="16"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_throws_clause_in_method_declaration"
+                value="16"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_binary_expression"
+                value="16"/>
+
+        <setting
+                id="org.eclipse.jdt.core.formatter.alignment_for_conditional_expression"
+                value="16"/>
+    </profile>
+</profiles>
